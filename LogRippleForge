@@ -1,0 +1,22 @@
+
+---
+
+**LogRippleForge**  
+**Description:**  
+Builds ripple maps of recurring log events to detect echo patterns, cycles, and temporal anomalies.
+
+```markdown
+# LogRippleForge – Pattern-Centric Log Visualizer
+
+LogRippleForge helps visualize recurring log signatures using ripple diagrams, revealing system behavior over time.
+
+## Features
+- Detects cyclic and echo log patterns
+- Visual ripple timeline of log categories
+- Export to PNG / CSV
+
+## Usage
+```bash
+git clone https://github.com/your-username/LogRippleForge.git
+cd LogRippleForge
+python ripple_map.py
