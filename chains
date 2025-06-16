@@ -1,0 +1,22 @@
+
+---
+
+**FlowSnapHarbor**  
+**Description:**  
+Captures and replays API flows to analyze stateful request chains and their side effects.
+
+```markdown
+# FlowSnapHarbor – Stateful API Snapshotter
+
+FlowSnapHarbor records multi-step API workflows and allows deterministic replay with custom assertions.
+
+## Features
+- Snapshot & replay of HTTP request chains
+- Stateful diff tracking
+- Supports REST and GraphQL
+
+## Usage
+```bash
+git clone https://github.com/your-username/FlowSnapHarbor.git
+cd FlowSnapHarbor
+python snapshot.py
