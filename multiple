@@ -1,0 +1,15 @@
+# EchoGridSentinel
+
+EchoGridSentinel is a lightweight distributed monitoring tool that performs heartbeat checks on services and triggers alerts when failures occur.
+
+## Features
+- Pings multiple endpoints across regions.
+- Tracks consecutive failures and timeouts.
+- Sends alerts via email or webhook.
+- Periodic reporting for dashboards.
+
+## Usage
+```bash
+git clone https://github.com/your-org/EchoGridSentinel.git
+cd EchoGridSentinel
+python monitor/ping_loop.py
